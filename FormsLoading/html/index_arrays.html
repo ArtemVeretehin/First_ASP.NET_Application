@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>METANIT.COM</title>
+</head>
+<body>
+    <h2>User form</h2>
+    <form method="post" action="postuser_array">
+        <p>
+            Name: <br />
+            <input name="name" />
+        </p>
+        <p>
+            Age: <br />
+            <input name="age" type="number" />
+        </p>
+        <p>
+            Languages:<br />
+            <input name="languages" /><br />
+            <input name="languages" /><br />
+            <input name="languages" /><br />
+        </p>
+        <p>
+            Interests in programming: <br />
+                                      <select multiple name="prog_languages">
+                                          <option>C#</option>
+                                          <option>VBS</option>
+                                          <option>JS</option>
+                                          <option>Python</option>
+                                      </select>
+        </p>
+        <input type="submit" value="Send" />
+    </form>
+</body>
+</html>
